@@ -1,2 +1,3 @@
 ##converting uppercase filename to lowercase filename with bash command
 for i in ????.trpdb;do cp -f $i 'echo $i |tr A-Z a-z';done
+for i in *.trpdb;do cp -f $i `echo $i | tr A-Z a-z`;done
